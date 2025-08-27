@@ -1,4 +1,5 @@
 import DesktopNavbarContent from "@/components/navbar/desktopNavbarContent";
+import MobileNavbarContent from "@/components/navbar/mobileNavbarContent";
 import { useMobile } from "@/hooks/useMobile";
 
 export default function Navbar() {
@@ -8,11 +9,7 @@ export default function Navbar() {
     <nav className="w-full bg-white text-gray-500 py-6">
       {isMobile ? (
         // Mobile view
-        <div className="flex justify-between items-center w-full px-4">
-          {/* Replace these with your mobile logo/menu */}
-          <span>Logo</span>
-          <span>Menu</span>
-        </div>
+        <MobileNavbarContent />
       ) : (
         // Desktop view
         <DesktopNavbarContent />
