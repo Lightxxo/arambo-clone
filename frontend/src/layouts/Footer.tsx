@@ -63,7 +63,7 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
                 padding: "16px 24px",
               }}
             >
-              <Mail className="w-4 h-4" />
+              <Mail className="w-6 h-6" />
               Send Email
             </button>
             <button
@@ -82,7 +82,7 @@ const Footer: React.FC<FooterProps> = ({ className = "" }) => {
                 border: "1px solid rgba(255, 255, 255, 0.2)",
               }}
             >
-              <Phone className="w-4 h-4" />
+              <Phone className="w-6 h-6" />
               Call Us
             </button>
           </div>
