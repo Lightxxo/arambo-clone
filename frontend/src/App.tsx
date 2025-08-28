@@ -8,6 +8,7 @@ import PrivateRoute from "./routes/PrivateRoute";
 // import SuspenseWrapper from "./routes/SuspenseWrapper";
 import { useEffect } from "react";
 import Layout from "./layouts/Layout";
+import Home from "./pages/Home";
 
 function App() {
   useEffect(() => {
@@ -20,7 +21,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route index element={<></>} />
+          <Route index element={<Home></Home>} />
         </Route>
       </Routes>
     </BrowserRouter>

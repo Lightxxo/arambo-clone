@@ -68,7 +68,7 @@ export default function MobileNavbarContent() {
             exit="hidden"
             variants={dropdownVariants}
             transition={{ type: "tween", duration: 0.3, ease: "easeInOut" }}
-            className="absolute top-full left-0 right-0 z-50 overflow-hidden"
+            className="absolute top-full left-0 right-0 z-50 translate-y-6 overflow-hidden"
           >
             <div className="bg-white border-t border-gray-200 px-10 py-6 space-y-4 ">
               <Link
